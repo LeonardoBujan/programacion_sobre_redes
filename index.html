@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación de Redes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Navbar Vertical -->
+            <nav class="col-md-3 col-lg-2 d-md-block bg-dark navbar-dark">
+                <div class="position-sticky" style="height: 100vh;">
+                    <a class="navbar-brand d-block py-3 text-center" href="#">Programación de Redes</a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="index.html">Fundamentos de Redes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="dispositivos.html">Dispositivos y Equipos de Red</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="protocolos.html">Protocolos de Comunicación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="geografia.html">Topologías y Geografías de Redes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="tecnologias.html">Tecnologías Inalámbricas y Enlace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="certificaciones.html">Certificaciones y Soluciones Empresariales</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <!-- Header Section -->
+                <header class="text-center py-5 bg-light">
+                    <div class="container">
+                        <h1 class="display-4">Conéctate al Mundo de las Redes</h1>
+                        <p class="lead">Explora la programación de redes con una web interactiva <br> haz click sobre las imagenes para ver el contenido</p>                        
+                    </div>
+                </header>
+    <!-- Contenidos con imágenes en línea -->
+    <section id="temas" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img src="img/vlan.png" alt="VLAN" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalVLAN">
+                    <p class="mt-2">¿Qué es una VLAN?</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img src="img/vpn.png" alt="VPN" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalVPN">
+                    <p class="mt-2">¿Qué es una VPN?</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img src="img/SAN.png" alt="SAN" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalSAN">
+                    <p class="mt-2">¿Qué es una SAN?</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img src="img/ProComu.png" alt="Protocolo de Comunicacion" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalProtocolo">
+                    <p class="mt-2">¿Qué es un protocolo de comunicación?</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img src="img/gateway.png" alt="Gateway" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalGateway">
+                    <p class="mt-2">¿Qué es un Gateway?</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img src="img/DMZ.png" alt="DMZ" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalDMZ">
+                    <p class="mt-2">¿Qué es una DMZ?</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img src="img/proxy.png" alt="Proxy" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalProxy">
+                    <p class="mt-2">¿Qué es un Proxy?</p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                    <img src="img/firewall.png" alt="Firewall" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalFirewall">
+                    <p class="mt-2">¿Qué es un Firewall?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <!-- Modal para VLAN -->
+    <div class="modal fade" id="modalVLAN" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVLANLabel">¿Qué es una VLAN?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Una VLAN (Virtual Local Area Network) es una red lógica que agrupa un conjunto de dispositivos que pueden estar en diferentes redes físicas pero que se comportan como si estuvieran en la misma red física. Las VLANs permiten segmentar la red para mejorar la seguridad y el rendimiento.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para VPN -->
+    <div class="modal fade" id="modalVPN" tabindex="-1" aria-labelledby="modalVPNLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVPNLabel">¿Qué es una VPN?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Una VPN (Virtual Private Network) es una red privada que se extiende a través de una red pública, como Internet, para permitir a los usuarios enviar y recibir datos como si sus dispositivos estuvieran conectados directamente a la red privada.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para SAN -->
+    <div class="modal fade" id="modalSAN" tabindex="-1" aria-labelledby="modalSANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalSANLabel">¿Qué es una SAN?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Una SAN (Storage Area Network) es una red especializada de alta velocidad que conecta servidores y dispositivos de almacenamiento, permitiendo un acceso compartido a grandes volúmenes de datos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Protocolo -->
+    <div class="modal fade" id="modalProtocolo" tabindex="-1" aria-labelledby="modalprotocoloLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalprotocoloLabel">¿Qué es un Protocolo de Comunicación?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Es un conjunto de reglas y estándares que permiten que dos o más dispositivos intercambien información de manera efectiva y coherente en una red. Estos protocolos definen cómo se envían, reciben y procesan los datos, asegurando que los dispositivos, aunque sean de diferentes fabricantes o utilicen tecnologías distintas, puedan comunicarse entre sí.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para gateway -->
+    <div class="modal fade" id="modalGateway" tabindex="-1" aria-labelledby="modalGatewayLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalGatewayLabel">¿Qué es un Gateway?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Un Gateway es un término inglés que significa puerta o portal. Es un tipo de enrutador que funciona como un punto de parada para los datos en su camino hacia otras redes. Gracias a los Gateway es posible la comunicación y envío de datos de un lado a otro.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para DMZ -->
+    <div class="modal fade" id="modalDMZ" tabindex="-1" aria-labelledby="modalDMZLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalDMZLabel">¿Qué es una DMZ?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Una zona desmilitarizada (demilitarized zone, DMZ) es una red perimetral que protege la red de área local (local-area network, LAN) interna contra el tráfico no confiable. Un significado común para una DMZ es una subred que se encuentra entre la Internet pública y las redes privadas.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para Proxy -->
+    <div class="modal fade" id="modalProxy" tabindex="-1" aria-labelledby="modalProxyLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProxyLabel">¿Qué es un Proxy?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Un servidor proxy proporciona una puerta de enlace entre los usuarios e Internet. Es un servidor denominado “intermediario”, porque está entre los usuarios finales y las páginas web que visitan en línea.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para Firewall -->
+    <div class="modal fade" id="modalFirewall" tabindex="-1" aria-labelledby="modalFirewallLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalFirewallLabel">¿Qué es un Firewall?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Es un sistema de seguridad de red de las computadoras que restringe el tráfico de Internet entrante, saliente o dentro de una red privada. Este software o esta unidad de hardware y software dedicados funciona bloqueando o permitiendo los paquetes de datos de forma selectiva..</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-light">
+        <p>&copy; 2024 Programación de Redes. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
