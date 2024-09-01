@@ -28,6 +28,40 @@ color: aqua;
     }
 }
 
+/* Estilo para la barra de navegación vertical en pantallas grandes */
+.navbar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+}
+
+/* Ocultar el botón de colapso en pantallas grandes */
+.navbar-toggler {
+    display: none;
+}
+
+/* Mostrar el botón de colapso en pantallas pequeñas */
+@media (max-width: 992px) {
+    .navbar {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+
+    .navbar .collapse {
+        display: none;
+    }
+
+    .navbar .collapse.show {
+        display: block;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+}
+
 footer {
     background-color: #343a40;
     color: #fff;
