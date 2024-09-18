@@ -56,10 +56,298 @@
                         <p class="lead"></p>                        
                     </div>
                 </header>
-            </main> 
+                <!-- Contenidos con imágenes en línea -->
+                <section id="temas" class="py-5">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/tcp.png" alt="TCP/IP" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modaNetbios">
+                                <p class="mt-2">¿Qué es tcp/ip y NetBios y cual es su diferencia principal?</p>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/stp.png" alt="spannintree" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalSpannig">
+                                <p class="mt-2"> Protocolo Spanning tree</p>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/ospf.png" alt="ospf" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalOspf">
+                                <p class="mt-2">Protocolo OSPF</p>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/arp.png" alt="Protocolo arp" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalArp">
+                                <p class="mt-2">Protocolo ARP</p>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/tcp.png" alt="Gateway" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalTcp">
+                                <p class="mt-2">¿Cómo está formado un paquete de datos en TCP/IP? ¿Qué es un “flag” en un paquete de TCP/IP?</p>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/email.png" alt="DMZ" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalCorreo">
+                                <p class="mt-2">Explicar los protocolos para enviar y recibir correo.</p>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/iIPV.png" alt="Proxy" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalIpv">
+                                <p class="mt-2">Diferencias entre IPV4 e IPV6</p>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/IEEE3.png" alt="Firewall" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal8023">
+                                <p class="mt-2">Estándar IEEE 802.3.</p>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/IEEE4.png" alt="Firewall" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modal8024">
+                                <p class="mt-2">Estándar IEEE 802.4</p>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/osi.png" alt="Firewall" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalOsi">
+                                <p class="mt-2">Modelo OSI</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+            </main>
 
+    <!-- Modal para VLAN -->
+    <div class="modal fade" id="modaNetbios" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVLANLabel">TCP/IP  y NetBios</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>TCP/IP</h3>
+                    <p>(Transmission Control Protocol/Internet Protocol) es el conjunto de protocolos que permite la comunicación y transmisión de datos en redes como Internet.</p>
+                    <h3>NetBios</h3>
+                    <p>(Network Basic Input/Output System) es un protocolo más antiguo diseñado para permitir la comunicación en redes locales (LAN).</p>
+                    <h3>Diferencias entre ambos</h3>
+                    <p>CP/IP es un protocolo global, diseñado para redes distribuidas (como Internet), mientras que NetBIOS es más adecuado para redes locales. <br>
+                        TCP/IP maneja toda la transmisión de datos, mientras que NetBIOS actúa como una capa adicional para facilitar ciertas funciones de red local, como la identificación de nombres de dispositivos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para modalSpannig-->
+    <div class="modal fade" id="modalSpannig" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVLANLabel">Protocolo Spanning Treea</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                         <!-- insertando un video de youtube en el modal -->
+                        <iframe id="videoSpanningtree" src="https://www.youtube.com/embed/UmoStmSTwG8?start=17&end=910" title="YouTube video" allowfullscreen></iframe>
 
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Modal para OSPF-->
+    <div class="modal fade" id="modalOspf" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVLANLabel">Protocolo OSPF</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                         <!-- insertando un video de youtube en el modal -->
+                        <iframe id="videoOspf" src="https://www.youtube.com/embed/wK24zn66Dbs?start=34&end=1456" title="YouTube video" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para ARP-->
+    <div class="modal fade" id="modalArp" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVLANLabel">Protocolo ARP</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                         <!-- insertando un video de youtube en el modal -->
+                        <iframe id="videoArp" src="https://www.youtube.com/embed/XFhxLvG6uy8?start=45&end=450" title="YouTube video" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para TCP -->
+    <div class="modal fade" id="modalTcp" tabindex="-1" aria-labelledby="modalSANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalSANLabel">Paquete de datos TCP/IP y Flag</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Un paquete de datos en TCP/IP tiene dos partes principales</h3><br>
+                    <p> Encabezado (header): Contiene información sobre el origen, destino, tamaño del paquete y otros detalles necesarios para la transmisión. <br>
+                        Datos (payload): Es la información que se está enviando, como un archivo, texto o una solicitud web. <br>
+                        En TCP/IP, el paquete se organiza en capas: <br>
+                        
+                        1. Capa de Red (IP): <br>
+                        Encabezado IP: Incluye: <br>
+                        Dirección IP de origen y destino: Define los puntos de inicio y destino de los datos. <br>
+                        Versión IP: Indica si se usa IPv4 o IPv6. <br>
+                        Tamaño del paquete: Indica cuántos bytes incluye.<br>
+                        Tiempo de vida (TTL): Límite de saltos antes de descartar el paquete.<br>
+                        Checksum: Un mecanismo para verificar la integridad del encabezado.<br>
+                        2. Capa de Transporte (TCP o UDP):<br>
+                        Encabezado TCP (si se usa TCP):<br>
+                        Número de secuencia: Indica el orden de los segmentos de datos.<br>
+                        Número de acuse de recibo: Confirma la recepción de datos.<br>
+                        Puerto de origen y destino: Define los puntos de comunicación a nivel de aplicaciones.<br>
+                        Tamaño de la ventana: Controla el flujo de datos.<br>
+                        Flags: Indicadores de control que ayudan a gestionar la conexión.</p><br>
+                        <h3>¿Qué es un flag en TCP/IP?</h3><br>
+                        <p>Un flag es un bit dentro del encabezado TCP que señala ciertas condiciones o controles en una conexión. Los flags son cruciales para administrar el proceso de conexión y la transferencia de datos.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Modal para Correo-->
+     <div class="modal fade" id="modalCorreo" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVLANLabel">Protocolo ARP</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                         <!-- insertando un video de youtube en el modal -->
+                        <iframe id="videoCorreo" src="https://www.youtube.com/embed/NGDaHX9W7Vc?start=0&end=711" title="YouTube video" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para modalIpv-->
+    <div class="modal fade" id="modalIpv" tabindex="-1" aria-labelledby="modalprotocoloLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalprotocoloLabel">Diferencias entre IPV4 e IPV6</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Las principales diferencias entre IPv4 e IPv6 son las siguientes</h3>
+                    <p>
+                        - IPv4: Utiliza direcciones de 32 bits, lo que permite un total de aproximadamente 4.3 mil millones de direcciones <br>
+                        - IPv6: Usa direcciones de 128 bits, lo que proporciona un total de aproximadamente 340 sextillones de direcciones <br>
+                        - IPv4: Se representa en formato decimal, con cuatro octetos separados por puntos (ej. 192.168.1.1). <br>
+                        - Pv6: Se representa en formato hexadecimal, con ocho grupos de cuatro dígitos separados por dos puntos <br>
+                        - Pv4: Debido al rápido crecimiento de dispositivos conectados, las direcciones IPv4 se están agotando. <br>
+                        - IPv6: Ofrece un número mucho mayor de direcciones, solucionando el problema del agotamiento de IPv4. <br>
+                        - IPv4: La configuración puede ser manual o mediante DHCP (Protocolo de Configuración Dinámica de Host). <br>
+                        - IPv6: Incluye autoconfiguración sin estado (SLAAC), lo que permite a los dispositivos conectarse a una red sin necesidad de un servidor DHCP. <br>
+                        - Pv4: Tiene una estructura de encabezado más simple, pero con menos espacio para opciones avanzadas. <br>
+                        - IPv6: El encabezado es más grande y más complejo, pero está diseñado para ser más eficiente en el enrutamiento y la gestión del tráfico. <br>
+                        - IPv4: La seguridad depende principalmente de protocolos adicionales como IPSec, que es opcional. <br>
+                        - IPv6: Tiene soporte nativo para IPSec, lo que significa que la seguridad está integrada en el protocolo desde el principio.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Modal para Explicar el estándar IEEE 802.3-->
+     <div class="modal fade" id="modal8023" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVLANLabel">Protocolo ARP</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                         <!-- insertando un video de youtube en el modal -->
+                        <iframe id="video8023" src="https://www.youtube.com/embed/9tLlBI8N56w?start=0&end=257" title="YouTube video" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal para Explicar el estándar IEEE 802.4. -->
+    <div class="modal fade" id="modal8024" tabindex="-1" aria-labelledby="modalGatewayLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalGatewayLabel">Estándar IEEE 802.4. </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Es un protocolo de red que forma parte de la familia de estándares IEEE 802, desarrollado específicamente para redes de área local (LAN) que utilizan el acceso por Token Bus. <br>
+                    El 802.4 implementa el método de acceso de Token Bus, en el que los dispositivos conectados a la red forman un bus lógico y el control de acceso a la red se pasa de un nodo a otro mediante un "token". Solo el dispositivo que posee el token puede transmitir datos, lo que evita colisiones y garantiza un uso ordenado de la red. </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal para modelo osi-->
+    <div class="modal fade" id="modalOsi" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVLANLabel">Modelo OSI</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                         <!-- insertando un video de youtube en el modal -->
+                        <iframe id="videoOSi" src="https://www.youtube.com/embed/O8SeYEFnBmQ?start=0&end=331" title="YouTube video" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
              <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-light">
         <p>&copy; 2024 Programación de Redes. Todos los derechos reservados.</p>
