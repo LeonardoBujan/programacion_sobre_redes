@@ -54,7 +54,135 @@
                     </div>
                 </header>
 
-            </main>
+            <!-- Contenidos con imágenes en línea -->
+            <section id="temas" class="py-5">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <img src="img/dispositivos.png" alt="dispositivos" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modaDispositivos">
+                            <p class="mt-2">Diferencias entre un Hub, Repetidor, Router y Switch</p>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <img src="img/dhcp.png" alt="DHCP" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalDHCP">
+                            <p class="mt-2">¿Qué es servicio de DHCP?</p>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <img src="img/dns.png" alt="DNS" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalDNS">
+                            <p class="mt-2">¿Qué es servicio de DNS?</p>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <img src="img/lte.png" alt="LTE" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalLTE">
+                            <p class="mt-2">tecnología LTE</p>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <img src="img/conexiones.png" alt="conexiones" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalConexiones">
+                            <p class="mt-2">Diferencias entre una conexión Coaxial, UTP o Fibra.</p>
+                        </div>                            
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- Modal para dispositivos -->
+            <div class="modal fade" id="modaDispositivos" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalVLANLabel">Diferencias entre una conexión Coaxial, UTP o Fibra</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ratio ratio-16x9">
+                                 <!-- insertando un video de youtube en el modal -->
+                                <iframe id="videoDispositivos" src="https://www.youtube.com/embed/411yRBi-Hyk?start=30&end=120" title="YouTube video" allowfullscreen></iframe>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Modal para modalDHCP -->
+            <div class="modal fade" id="modalDHCP" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalVLANLabel">Servicio de DHCP</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>DHCP (Dynamic Host Configuration Protocol) es un protocolo de red que permite a los dispositivos obtener automáticamente una dirección IP y otros parámetros de configuración necesarios para conectarse a una red.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal para modal servicio de DNS-->
+            <div class="modal fade" id="modalDNS" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalVLANLabel">Servicio de DNS</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>El sistema de nombres de dominios (DNS, Domain Name System) proporciona un método para que los hosts utilicen este nombre al solicitar una dirección IP de un servidor específico. Los nombres del DNS están registrados y organizados en Internet en grupos específicos de alto nivel, o dominios. Algunos de los dominios de alto nivel más comunes en Internet son: .com, .edu y .net.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal para modal de LTE-->
+            <div class="modal fade" id="modalLTE" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalVLANLabel"> Tecnologia LTE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>LTE (Long-Term Evolution) es una tecnología de comunicaciones inalámbricas diseñada para mejorar la velocidad y eficiencia de las redes móviles. Desarrollada como parte de la evolución hacia 4G, LTE proporciona una mayor capacidad de datos y menor latencia en comparación con sus predecesores (como 3G).
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal pdiferencias entre conexiones -->
+            <div class="modal fade" id="modalConexiones" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalVLANLabel">Diferencias entre una conexión Coaxial, UTP o Fibra</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ratio ratio-16x9">
+                                 <!-- insertando un video de youtube en el modal -->
+                                <iframe id="videoconexiones" src="https://www.youtube.com/embed/tIqEAMQEZV0?start=4&end=33" title="YouTube video" allowfullscreen></iframe>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
              <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-light">
