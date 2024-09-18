@@ -55,7 +55,77 @@
                     </div>
                 </header>
 
-            </main>
+             <!-- Contenidos con imágenes en línea -->
+             <section id="temas" class="py-5">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <img src="img/geografia.png" alt="Geografia de la red" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalGeografia">
+                            <p class="mt-2">Defina la red según su geografía (LAN, WAN, MAN, etc.)</p>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                            <img src="img/topologia.png" alt="Topologia de reedes" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalTopologia">
+                            <p class="mt-2">Defina una red según su topología (Estrella, Bus, Anillo, etc.)</p>
+                        </div>                                               
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+         <!-- Modal para Redes segun su geografia -->
+         <div class="modal fade" id="modalGeografia" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVLANLabel">Redes Segun su Geografia</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ul style="list-style-type: none; padding-left: 0;">
+                          <li><strong>LAN (Local Area Network):</strong> Redes en áreas pequeñas como una oficina, con alta velocidad.</li>
+                          <li><strong>WAN (Wide Area Network):</strong> Cobertura global o intercontinental, como el Internet.</li>
+                          <li><strong>MAN (Metropolitan Area Network):</strong> Redes que abarcan ciudades, proporcionando alta velocidad dentro de áreas urbanas.</li>
+                          <li><strong>PAN (Personal Area Network):</strong> Redes personales para conectar dispositivos cercanos, como Bluetooth.</li>
+                          <li><strong>SAN (Storage Area Network):</strong> Redes dedicadas a conectar servidores con dispositivos de almacenamiento en empresas.</li>
+                          <li><strong>CAN (Campus Area Network):</strong> Redes que cubren áreas como campus universitarios, conectando varios edificios.</li>
+                        </ul>
+                      </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal para Redes segun su Topologia -->
+        <div class="modal fade" id="modalTopologia" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalVLANLabel">Redes Segun su Topologia</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        
+                        <ul style="list-style-type: none; padding-left: 0;">
+                          <li><strong>Topología en Bus:</strong> Todos los dispositivos comparten un único canal de comunicación. Es económica pero puede presentar colisiones.</li>
+                          <li><strong>Topología en Estrella:</strong> Los dispositivos se conectan a un nodo central (switch o hub). Es fácil de gestionar y muy confiable.</li>
+                          <li><strong>Topología en Anillo:</strong> Los dispositivos están conectados en un círculo. Los datos pasan por cada nodo hasta llegar al destino.</li>
+                          <li><strong>Topología en Malla:</strong> Cada nodo se conecta a varios otros, proporcionando redundancia y alta fiabilidad.</li>
+                          <li><strong>Topología en Árbol:</strong> Estructura jerárquica que combina la topología en estrella con una base de múltiples niveles.</li>
+                          <li><strong>Topología Mixta:</strong> Combinación de varias topologías para cumplir requisitos específicos de la red.</li>
+                        </ul>
+                      </div>
+                      
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
 
              <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-light">
