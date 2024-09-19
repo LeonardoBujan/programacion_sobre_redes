@@ -54,7 +54,68 @@
                     </div>
                 </header>
 
-            </main>
+           <!-- Contenidos con imágenes en línea -->
+           <section id="temas" class="py-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <img src="img/cisco.png" alt="cisco" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalCisco">
+                        <p class="mt-2">Según Cisco, ¿qué significa CCENT, CCNA y CCNP?</p>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                        <img src="img/Teams.png" alt="microsoft teams" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalTeams">
+                        <p class="mt-2">Explicar la solución de Microsoft Teams o alguna alternativa.</p>
+                    </div>                                               
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+     <!-- Modal para Redes segun su geografia -->
+     <div class="modal fade" id="modalCisco" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVLANLabel">Segun cisco</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Según Cisco, las certificaciones CCENT, CCNA y CCNP representan diferentes niveles de conocimientos y habilidades en redes y tecnología. </p>
+                     <ul style="list-style-type: none; padding-left: 0;"> <li><strong>CCENT (Cisco Certified Entry Networking Technician):</strong> Es una certificación de nivel básico que valida las habilidades fundamentales necesarias para trabajar con redes pequeñas. Cubre conocimientos básicos de redes, como la instalación y configuración de dispositivos de red y el mantenimiento de redes pequeñas.</li> <li><strong>CCNA (Cisco Certified Network Associate):</strong> Es una certificación de nivel intermedio que abarca un conocimiento más profundo de redes. Incluye habilidades para instalar, configurar y solucionar problemas en redes de tamaño mediano, así como la comprensión de tecnologías avanzadas de red, como routing y switching, IPv4 e IPv6, y redes WAN.</li> <li><strong>CCNP (Cisco Certified Network Professional):</strong> Es una certificación de nivel profesional que requiere conocimientos avanzados en el diseño, implementación, verificación y solución de problemas en redes grandes y complejas. Está orientada a profesionales que buscan especializarse en áreas avanzadas de redes, como routing y switching, y se enfoca en habilidades técnicas más profundas y complejas.</li> </ul>
+                  </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Redes segun su Topologia -->
+    <div class="modal fade" id="modalTeams" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalVLANLabel">Microsoft Teams</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    
+                    <ul style="list-style-type: none; padding-left: 0;">
+                        <li><strong>Microsoft Teams:</strong> Plataforma de colaboración y comunicación de Microsoft 365 que facilita la comunicación en tiempo real y la colaboración en proyectos a través de chat, videollamadas y la integración de herramientas y archivos.</li>
+                        <li><strong>Slack:</strong> Plataforma de comunicación centrada en la mensajería instantánea y la integración de herramientas, con canales temáticos, mensajería directa y en grupo, y una amplia gama de integraciones de aplicaciones de terceros.</li>
+                        <li><strong>Zoom:</strong> Principalmente conocida por sus capacidades de videoconferencia, también ofrece funcionalidades de chat en grupo y mensajes directos, con capacidades de grabación y transcripción.</li>
+                        <li><strong>Google Workspace:</strong> Ofrece herramientas de colaboración como Google Chat para mensajería y Google Meet para videoconferencias, integrándose con aplicaciones de Google como Google Drive y Google Docs.</li>
+                        <li><strong>Asana:</strong> Herramienta de gestión de proyectos y tareas que incluye funciones de comunicación en equipo, con gestión de tareas, seguimiento de progreso y comentarios en tareas y proyectos.</li>
+                      </ul>
+                      
+                  
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
              <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-light">
