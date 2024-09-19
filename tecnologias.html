@@ -53,9 +53,137 @@
                         <h1 class="display-4">Tecnologías Inalámbricas y Enlace</h1>
                         <p class="lead"></p>                        
                     </div>
-                </header>
-
+                </header>               
+    
+                 <!-- Contenidos con imágenes en línea -->
+                 <section id="temas" class="py-5">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/wireless.png" alt="wireless" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalWireless">
+                                <p class="mt-2">Explicar las tecnologías Wireless y sus estándares</p>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/enlaces (2).png" alt="enlaces ded redes " class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalEnlaces">
+                                <p class="mt-2">Tipos de enlace: MPLS, LAN to LAN, microonda, VSAT, y otros.</p>
+                            </div>  
+                            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                <img src="img/MPLS.png" alt="Topologia de reedes" class="img-fluid img-thumbnail" data-bs-toggle="modal" data-bs-target="#modalMpls">
+                                <p class="mt-2">¿Qué significa aplicar calidad en un enlace MPLS?</p>
+                            </div>                                                
+                        </div>
+                    </div>
+                </section>
+    
             </main>
+    
+             <!-- Modal para wireless -->
+             <div class="modal fade" id="modalWireless" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalVLANLabel">Tecnologías Wireless y sus estándares</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                              <ul style="list-style-type: none; padding-left: 0;">
+                              <li><strong>Wi-Fi (IEEE 802.11):</strong> Permite la conexión inalámbrica a internet o entre dispositivos, con estándares como 802.11a/b/g/n/ac/ax que alcanzan hasta 9.6 Gbps (Wi-Fi 6).</li>
+                              <li><strong>Bluetooth (IEEE 802.15.1):</strong> Comunicación de corto alcance entre dispositivos como auriculares o wearables. Bluetooth Low Energy (BLE) es ideal para dispositivos IoT de bajo consumo.</li>
+                              <li><strong>WiMAX (IEEE 802.16):</strong> Proporciona acceso inalámbrico de banda ancha a largas distancias, ideal para áreas metropolitanas y zonas rurales.</li>
+                              <li><strong>ZigBee (IEEE 802.15.4):</strong> Tecnología de bajo consumo utilizada en IoT y automatización del hogar, conectando dispositivos como sensores y sistemas de seguridad.</li>
+                              <li><strong>4G/5G (LTE):</strong> Redes móviles de alta velocidad que ofrecen conectividad a dispositivos móviles. 5G permite velocidades de hasta 10 Gbps y es clave para el futuro de las ciudades inteligentes.</li>
+                            </ul>
+                          </div>
+                          
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Modal tipos de enlaces -->
+            <div class="modal fade" id="modalEnlaces" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalVLANLabel">Tipos de Enlace</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            
+                            <ul style="list-style-type: none; padding-left: 0;">
+                              <li><strong>MPLS (Multiprotocol Label Switching):</strong> Optimiza el tráfico de red a través de etiquetas, facilitando la gestión de redes empresariales grandes con alta velocidad y menor latencia.</li>
+                              <li><strong>LAN to LAN:</strong> Conecta dos redes locales (LANs) ubicadas en diferentes sitios, proporcionando una comunicación segura y directa a través de internet o conexiones dedicadas.</li>
+                              <li><strong>Microondas:</strong> Usa ondas de radio de alta frecuencia para la transmisión de datos a largas distancias, muy útil en telecomunicaciones donde no es viable el cableado.</li>
+                              <li><strong>VSAT (Very Small Aperture Terminal):</strong> Enlaces satelitales con antenas pequeñas, permiten conectar ubicaciones remotas a internet o redes privadas, ideal para zonas rurales.</li>
+                              <li><strong>Enlaces 4G/5G:</strong> Proporcionan conectividad inalámbrica de alta velocidad para dispositivos móviles y de red a través de las redes celulares de cuarta (4G) y quinta (5G) generación.</li>
+                              <li><strong>Fibra Óptica:</strong> Utiliza cables de vidrio o plástico que transmiten datos mediante pulsos de luz, ofreciendo velocidades extremadamente rápidas y alta capacidad para conexiones de larga distancia.</li>
+                              <li><strong>Enlace Satelital:</strong> Ideal para transmitir datos a nivel global, conectando redes y usuarios en áreas donde los enlaces terrestres no son posibles, utilizando satélites geoestacionarios o de órbita baja.</li>
+                            </ul>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                          
+            <!-- Modal tipos de enlaces -->
+            <div class="modal fade" id="modalEnlaces" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalVLANLabel">Tipos de Enlace</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            
+                            <ul style="list-style-type: none; padding-left: 0;">
+                              <li><strong>MPLS (Multiprotocol Label Switching):</strong> Optimiza el tráfico de red a través de etiquetas, facilitando la gestión de redes empresariales grandes con alta velocidad y menor latencia.</li>
+                              <li><strong>LAN to LAN:</strong> Conecta dos redes locales (LANs) ubicadas en diferentes sitios, proporcionando una comunicación segura y directa a través de internet o conexiones dedicadas.</li>
+                              <li><strong>Microondas:</strong> Usa ondas de radio de alta frecuencia para la transmisión de datos a largas distancias, muy útil en telecomunicaciones donde no es viable el cableado.</li>
+                              <li><strong>VSAT (Very Small Aperture Terminal):</strong> Enlaces satelitales con antenas pequeñas, permiten conectar ubicaciones remotas a internet o redes privadas, ideal para zonas rurales.</li>
+                              <li><strong>Enlaces 4G/5G:</strong> Proporcionan conectividad inalámbrica de alta velocidad para dispositivos móviles y de red a través de las redes celulares de cuarta (4G) y quinta (5G) generación.</li>
+                              <li><strong>Fibra Óptica:</strong> Utiliza cables de vidrio o plástico que transmiten datos mediante pulsos de luz, ofreciendo velocidades extremadamente rápidas y alta capacidad para conexiones de larga distancia.</li>
+                              <li><strong>Enlace Satelital:</strong> Ideal para transmitir datos a nivel global, conectando redes y usuarios en áreas donde los enlaces terrestres no son posibles, utilizando satélites geoestacionarios o de órbita baja.</li>
+                            </ul>
+                          </div>
+                          
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+              <!-- Modal MPLS-->
+            <div class="modal fade" id="modalMpls" tabindex="-1" aria-labelledby="modalVLANLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalVLANLabel">Calidad en un enlace MPLS</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Aplicar calidad en un enlace MPLS (Multiprotocol Label Switching) se refiere a la implementación de mecanismos para garantizar que el tráfico de datos que atraviesa la red MPLS cumpla con ciertos estándares de desempeño. En MPLS, esto se logra principalmente a través de las siguientes técnicas:</p>
+                            <ul style="list-style-type: none; padding-left: 0;">
+                                <li><strong>MPLS (Multiprotocol Label Switching):</strong> Optimiza el tráfico de red a través de etiquetas, facilitando la gestión de redes empresariales grandes con alta velocidad y menor latencia.</li>
+                                <li><strong>QoS (Quality of Service):</strong> Implementa mecanismos para clasificar y gestionar el tráfico, priorizando datos críticos como voz o video, y asegurando el ancho de banda y la latencia adecuados.</li>
+                                <li><strong>LSP (Label Switched Path):</strong> Utiliza rutas etiquetadas para dirigir el tráfico, configurando parámetros de calidad para garantizar caminos adecuados según las necesidades del tráfico.</li>
+                                <li><strong>Congestion Avoidance:</strong> Gestiona la congestión mediante la reserva de ancho de banda y ajuste dinámico de rutas, evitando problemas de rendimiento en el enlace.</li>
+                                <li><strong>SLAs (Service Level Agreements):</strong> Configura MPLS para cumplir con los acuerdos de nivel de servicio, asegurando que se mantengan los requisitos de rendimiento como jitter, pérdida de paquetes y latencia.</li>
+                              </ul>
+                              
+                          </div>
+                          
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
 
              <!-- Footer -->
     <footer class="text-center py-4 bg-dark text-light">
