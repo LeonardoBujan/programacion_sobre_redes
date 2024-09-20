@@ -16,6 +16,10 @@ color: aqua;
     animation: pulse 2s infinite;
 }
 
+.imagen-ifts {
+    width: 120px;
+}
+
 .image-hover:hover {
     box-shadow: 10px 5px 5px rgb(172, 172, 172);
 }
